@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(29, 53%, 90%);
+    padding: 70px 350px;
+    width: 100%;
+}
+#fatboy{
+    border:none;
+}
+p{
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Young Serif';
+    font-size: 45px;
+    font-weight: 500;
+}
+h2{
+    font-size: 28px;
+    color:#793f28;
+    font-family: 'Outfit';
+}
+h3{
+    color:#6c3049;
+    padding: 20px 20px 0;
+}
+*{
+    font-family: 'Outfit';
+
+}
+#instruct{
+    list-style:decimal;
+}
+
+ul li {
+    text-align:initial;
+    list-style-image: color #793f28;
+}
+section{
+    background-color: white;
+    padding: 35px;
+    border-radius: 30px;
+    width: 50%;
+    max-width: 735px;
+}
+section img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+table th{
+    border-bottom: 1px solid rgba(110, 110, 110, 0.2);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 0 20px;
+    padding-left: 40px;
+}
+span{
+    font-weight: bold;
+}
+
+.container{
+    max-width: 99%;
+    justify-content: center;
+}
+#value{
+    color: #793f28;
+}
