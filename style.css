@@ -1,72 +1,114 @@
-body{
+body {
     background-color: hsl(29, 53%, 90%);
     padding: 70px 350px;
     width: 100%;
+    overflow-x: auto;
 }
-#fatboy{
-    border:none;
+
+#fatboy {
+    border: none;
 }
-p{
+
+p {
+    font-size: 16px;
     text-align: justify;
 }
 
-h1{
+h1, h2, h3 {
+    font-family: 'Outfit';
+}
+
+h1 {
     font-family: 'Young Serif';
+    width: 100%;
     font-size: 45px;
     font-weight: 500;
 }
-h2{
+
+h2 {
     font-size: 28px;
-    color:#793f28;
-    font-family: 'Outfit';
+    color: #793f28;
 }
-h3{
-    color:#6c3049;
+
+h3 {
+    color: #6c3049;
     padding: 20px 20px 0;
 }
-*{
-    font-family: 'Outfit';
 
+* {
+    font-family: 'Outfit';
 }
-#instruct{
-    list-style:decimal;
+
+#instruct {
+    list-style: decimal;
 }
 
 ul li {
-    text-align:initial;
+    text-align: initial;
     list-style-image: color #793f28;
 }
-section{
+
+section {
     background-color: white;
     padding: 35px;
     border-radius: 30px;
-    width: 50%;
-    max-width: 735px;
 }
-section img{
+
+section img {
     width: 100%;
     box-sizing: border-box;
     border-radius: 20px;
 }
-table{
+
+table {
     width: 100%;
     text-align: left;
 }
-table th{
+
+table th {
     border-bottom: 1px solid rgba(110, 110, 110, 0.2);
     font-weight: 500;
     font-size: 20px;
     padding: 0 0 20px;
     padding-left: 40px;
 }
-span{
+
+span {
     font-weight: bold;
 }
 
-.container{
+.container {
     max-width: 99%;
     justify-content: center;
 }
-#value{
+
+#value {
     color: #793f28;
+}
+
+
+@media (max-width: 1440px) {
+    body {
+        min-width: 375px;
+        max-width: 1440px;
+    }
+    section {
+        width: 50%;
+        max-width: 735px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    body {
+        max-width: 100%;
+        padding: 70px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    section {
+        width: 100%;
+        max-width: 350px;
+    }
 }
